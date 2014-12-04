@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample2_7</string>
+    <string name="check_1">Java</string>
+	<string name="check_2">C++</string>
+	<string name="radio_O">O型</string>
+	<string name="radio_A">A型</string>
+	<string name="radio_B">B型</string>
+	<string name="radio_AB">AB型</string>
+
+</resources>

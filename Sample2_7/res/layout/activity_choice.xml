@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/textView"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=""
+	></TextView>
+
+<CheckBox
+    android:id="@+id/checkBox1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/check_1"
+    />
+
+<CheckBox
+    android:id="@+id/checkBox2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/check_2"
+    />
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/radioGroup">
+	<RadioButton
+    	 android:id="@+id/radio_O"
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="@string/radio_O"
+    	 />
+	<RadioButton
+    	 android:id="@+id/radio_A"
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="@string/radio_A"
+    	 />
+	<RadioButton
+    	 android:id="@+id/radio_B"
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="@string/radio_B"
+    	 />
+	<RadioButton
+    	 android:id="@+id/radio_AB"
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="@string/radio_AB"
+    	 />
+</RadioGroup>
+</LinearLayout>

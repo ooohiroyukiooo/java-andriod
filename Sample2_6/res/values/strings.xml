@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sample2_6</string>
+    <string name="message_0">ミニ水族館</string>
+    <string name="message_1">トロピカルフィッシュ</string>
+    <string name="message_2">隠れクマノミ</string>
+    <string name="message_3">ペンギン</string>
+    <string name="label1">tropical fish</string>
+    <string name="label2">anemone fish</string>
+    <string name="label3">penguin</string>
+    <string name="label4">home</string>
+</resources>

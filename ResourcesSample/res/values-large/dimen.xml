@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="a_button_corner">9dp</dimen>
+      <dimen name="a_button_padding">9dp</dimen>
+      <dimen name="a_button_stroke">4.5dp</dimen>
+      <dimen name="text_size">24sp</dimen>
+
+</resources>

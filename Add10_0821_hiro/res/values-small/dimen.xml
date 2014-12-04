@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_chiisai">12sp</dimen>
+    <dimen name="size_futuu">18sp</dimen>
+    <dimen name="size_ookii">24sp</dimen>
+
+</resources>

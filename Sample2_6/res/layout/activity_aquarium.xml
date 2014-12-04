@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:text="@string/message_0"
+        />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label1"
+        android:nextFocusUp="@+id/button2"
+        android:paddingBottom="20px"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label2"
+        android:nextFocusDown="@+id/button1"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label3"
+        android:nextFocusDown="@+id/button1"
+        />
+
+     <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label4"
+        android:nextFocusDown="@+id/button1"
+        />
+
+</LinearLayout>

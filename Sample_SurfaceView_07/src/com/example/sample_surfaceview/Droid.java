@@ -1,0 +1,114 @@
+package com.example.sample_surfaceview;
+
+import android.graphics.Bitmap;
+import android.graphics.RectF;
+
+public class Droid implements Runnable {
+	private float x;
+	private float toX;
+	private float y;
+	private float toY;
+	private Thread thread;
+	private Bitmap bm;
+	private Bitmap[] bmAry;
+	private float stepSize;
+	private boolean isMovable;
+	private RectF rect;
+
+	public Droid() {
+		// TODO 自動生成されたコンストラクター・スタブ
+		thread = new Thread(this);
+		rect=new RectF();
+		// thread.start();
+	}
+
+	public float getX() {
+		return x - bmAry[0].getWidth() / 2;
+	}
+
+	public void setToX(float toX) {
+		this.toX = toX;
+	}
+
+	@Override
+	public void run() {
+		int cnt = 0;
+		while (thread != null) {
+			if (isMovable) {
+				float def = toX - x;
+				if (def > 0) {
+					// x++;
+					x += stepSize;
+				} else if (def < 0) {
+					// x--;
+					x -= stepSize;
+				} else {
+					// なにもしない
+				}
+				if (Math.abs(toX - x) < stepSize) {
+					x = toX;
+				}
+				def = toY - y;
+				if (def > 0) {
+					y += stepSize;
+				} else if (def < 0) {
+					y -= stepSize;
+				} else {
+					// なにもしない
+				}
+				if (Math.abs(toY - y) < stepSize) {
+					y = toY;
+				}
+				try {
+					Thread.sleep(1000 / 4);
+				} catch (InterruptedException e) {
+					// TODO 自動生成された catch ブロック
+					e.printStackTrace();
+				}
+				cnt++;
+			}
+			bm = bmAry[cnt % bmAry.length];
+			rect.set(x, 
+					y,
+					x+bmAry[0].getWidth(),
+					y+bmAry[0].getHeight());
+		}
+	}
+
+	public float getY() {
+		return y - bmAry[0].getHeight() / 2;
+	}
+
+	public void stop() {
+		thread = null;
+	}
+
+	public void setToY(float toY) {
+		this.toY = toY;
+	}
+
+	public Bitmap getBm() {
+		return bm;
+	}
+
+	public void setBmAry(Bitmap[] bmAry) {
+		this.bmAry = bmAry;
+		stepSize = bmAry[0].getHeight() / 4;
+	}
+
+	public void start() {
+		thread.start();
+	}
+
+	public void setX(float f) {
+		x = f;
+	}
+
+	public RectF getRect() {
+		return rect;
+	}
+
+	public void setMovable(boolean isMovable) {
+		this.isMovable = isMovable;
+	}
+}

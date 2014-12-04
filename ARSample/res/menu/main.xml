@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.android.booksample.arsample.MainActivity" >
+    <item android:id="@+id/operate_switchcamera"
+          android:icon="@android:drawable/ic_menu_rotate"
+          android:title="カメラの切り替え"
+          android:showAsAction="ifRoom">
+
+    </item>
+    <item android:id="@+id/operate_shutter"
+          android:icon="@android:drawable/ic_menu_camera"
+          android:title="撮影"
+          android:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

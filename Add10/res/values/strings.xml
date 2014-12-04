@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello world, Tashite10DesukaActivity</string>
+    <string name="app_name">add to 10</string>
+    <string name="title">that is adding 10</string>
+    <string name="game_top">Lets sum to 10</string>
+    <string name="game_info">Its clear once you correct 10</string>
+    <string name="good">GOOD</string>
+    <string name="bad">BAD</string>
+    <string name="clear">Clear !</string>
+    <string name="res_miss1">The last time You mistook </string>
+	<string name="res_miss2"></string>
+	<string name="res_time1">Result time  </string>
+	<string name="res_time2"></string>
+
+</resources>

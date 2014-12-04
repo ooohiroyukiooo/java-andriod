@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample2_5</string>
+	<string name="message">ボタンの使い方のサンプルです。</string>
+	<string name="button_word">押下されました</string>
+</resources>

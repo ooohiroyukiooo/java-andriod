@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample6_1</string>
+	<string name="message">標準Activityを呼び出すサンプルです。</string>
+	<string name="button_browser">Webブラウザを呼び出しました。</string>
+	<string name="button_map">地図を呼び出しました。</string>
+	<string name="button_setting">設定画面を呼び出しました。</string>
+</resources>

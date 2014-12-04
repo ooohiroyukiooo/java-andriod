@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Tashite10DesukaActivity!</string>
+    <string name="app_name">タスト10デスカ？</string>
+    <string name="title">足して10にするのです</string>
+    <string name="game_top">足して10にしてみよう！</string>
+    <string name="game_info">10回正解でクリアだよ</string>
+    <string name="good">正解！</string>
+    <string name="bad">チガイマス！</string>
+    <string name="clear">ゲームクリアー！</string>
+    <string name="res_miss1">前回は</string>
+    <string name="res_miss2">回間違えたよ</string>
+    <string name="res_time1">かかった時間は</string>
+    <string name="res_time2">だね</string>
+
+</resources>

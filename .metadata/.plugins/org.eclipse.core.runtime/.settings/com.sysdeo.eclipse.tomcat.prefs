@@ -1,0 +1,8 @@
+#Sat Oct 11 00:32:28 JST 2008
+tomcatDir=C:/Users/0519AND/Desktop/Tools/eclipse/pleiades/tomcat/6
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=C:/Users/0519AND/Desktop/Tools/eclipse/pleiades/tomcat/6/conf/Catalina/localhost
+tomcatVersion=tomcatV6
+computeSourcePath=true
+tomcatConfigFile=C:/Users/0519AND/Desktop/Tools/eclipse/pleiades/tomcat/6/conf/server.xml

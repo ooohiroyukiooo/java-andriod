@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">その他</string>
+    <string name="button">ボタン</string>
+    <string name="bu">ボ</string>
+    <string name="b"></string>
+    <string name="app_name">リソースの使い方</string>
+</resources>

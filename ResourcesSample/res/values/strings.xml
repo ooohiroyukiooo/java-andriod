@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">any screen</string>
+    <string name="app_name">ResorcesSample</string>
+    <string name="button">btn</string>
+    <string name="bu">bt</string>
+    <string name="b"></string>
+</resources>

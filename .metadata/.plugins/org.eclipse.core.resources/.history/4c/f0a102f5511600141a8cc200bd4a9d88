@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample2_2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ownerName">田中一郎</string>
+    <string name="ownerAge">23</string>
+    <string name="ownerOcupation">システムエンジニア</string>
+
+
+</resources>

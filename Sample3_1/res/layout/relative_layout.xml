@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="30px" >
+
+    <Button
+        android:id="@+id/centerButton"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_centerInParent="true"
+        android:text="決定" />
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignTop="@+id/centerButton"
+        android:layout_toLeftOf="@+id/centerButton"
+        android:text="左へ" />
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignTop="@+id/centerButton"
+        android:layout_toRightOf="@+id/centerButton"
+        android:text="右へ" />
+
+</RelativeLayout>
